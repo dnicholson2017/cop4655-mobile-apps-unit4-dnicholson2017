@@ -1,0 +1,58 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "67f4270a3842abfd1b39822309623e35256a84ee5822f8f467ad5ddd40f05551"
+    }
+  ],
+  "containerPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Build/Products",
+      "pchPath" : "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/DerivedData/HW4/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
