@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wg7-xV-89h">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -9,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tasks-->
+        <!--Photo Scavenger Hunt-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TaskListViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TaskListViewController" customModule="HW4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="91" width="390" height="753"/>
                                 <inset key="separatorInset" minX="48" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="60" id="WLA-WM-GNM" customClass="TaskCell" customModule="lab_task_squirrel" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="60" id="WLA-WM-GNM" customClass="TaskCell" customModule="HW4" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="390" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WLA-WM-GNM" id="BXc-Af-m5v">
@@ -80,7 +81,8 @@
                             <constraint firstItem="Q4w-ie-GaD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tqj-PY-kbK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Tasks" id="BEp-bB-g30">
+                    <navigationItem key="navigationItem" title="Photo Scavenger Hunt" id="BEp-bB-g30">
+                        <barButtonItem key="backBarButtonItem" title=" " id="2vP-uR-d0P"/>
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="mUF-lW-14o">
                             <connections>
                                 <segue destination="Wks-lt-YIn" kind="presentation" identifier="ComposeSegue" id="HQw-jc-QaX"/>
@@ -99,7 +101,7 @@
         <!--Task Detail View Controller-->
         <scene sceneID="X0K-wo-jU3">
             <objects>
-                <viewController id="iXV-Xg-iXn" customClass="TaskDetailViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iXV-Xg-iXn" customClass="TaskDetailViewController" customModule="HW4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5O-Gy-SMd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,8 +147,15 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-HK-1Xq">
                                         <rect key="frame" x="0.0" y="128.66666666666666" width="342" height="334.33333333333337"/>
                                         <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-dV-9ki">
+                                                <rect key="frame" x="0.0" y="0.0" width="342" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="pMe-Ge-gta"/>
+                                                </constraints>
+                                                <standardMapConfiguration key="preferredConfiguration"/>
+                                            </mapView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U18-CX-28F">
-                                                <rect key="frame" x="0.0" y="0.0" width="342" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="300" width="342" height="34.333333333333314"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Attach Photo"/>
@@ -154,13 +163,6 @@
                                                     <action selector="didTapAttachPhotoButton:" destination="iXV-Xg-iXn" eventType="touchUpInside" id="jQN-nU-QWb"/>
                                                 </connections>
                                             </button>
-                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-dV-9ki">
-                                                <rect key="frame" x="0.0" y="34.333333333333314" width="342" height="300"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="300" id="pMe-Ge-gta"/>
-                                                </constraints>
-                                                <standardMapConfiguration key="preferredConfiguration"/>
-                                            </mapView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -197,8 +199,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wg7-xV-89h" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="DRp-lg-aqr">
-                        <rect key="frame" x="0.0" y="47" width="390" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DRp-lg-aqr">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" systemColor="systemBlueColor"/>
@@ -216,7 +218,7 @@
         <!--New Task-->
         <scene sceneID="Ioe-a1-6Ta">
             <objects>
-                <viewController id="fZK-XV-ZSw" customClass="TaskComposeViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fZK-XV-ZSw" customClass="TaskComposeViewController" customModule="HW4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qrs-jQ-4tq">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

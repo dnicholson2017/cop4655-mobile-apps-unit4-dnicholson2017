@@ -58,7 +58,8 @@ class TaskDetailViewController: UIViewController {
         completedImageView.tintColor = color
         completedLabel.textColor = color
 
-        mapView.isHidden = !task.isComplete
+        // Code below hides or shows the map depending on it's completion status
+        //mapView.isHidden = !task.isComplete
         attachPhotoButton.isHidden = task.isComplete
     }
 
