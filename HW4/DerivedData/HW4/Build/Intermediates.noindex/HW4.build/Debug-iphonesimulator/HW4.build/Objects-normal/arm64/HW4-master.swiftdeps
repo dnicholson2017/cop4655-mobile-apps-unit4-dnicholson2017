@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "d3636ffc292ca298a35430067fb8c51b2d57c2976f78d7fb6d4a04ea3b04aaeb"
-build_start_time: [1695498981, 929945000]
-build_end_time: [1695498983, 475425000]
+build_start_time: [1695766792, 315971000]
+build_end_time: [1695766793, 697087000]
 inputs:
   "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/AppDelegate.swift": [1695266801, 990316310]
-  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Models/Task.swift": [1669071779, 0]
+  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Models/Task.swift": [1695766787, 531385816]
   "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/SceneDelegate.swift": [1668561881, 0]
   "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task Detail/TaskAnnotationView.swift": [1669066340, 0]
-  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task Detail/TaskDetailViewController.swift": [1695497882, 669697086]
-  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task List/TaskCell.swift": [1695498295, 386812918]
-  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task List/TaskListViewController.swift": [1695498977, 63199871]
+  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task Detail/TaskDetailViewController.swift": [1695501308, 143093183]
+  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task List/TaskCell.swift": [1695501303, 612911599]
+  "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/Task List/TaskListViewController.swift": [1695501312, 186595409]
   "/Users/biancanicholson/code/cop4655-mobile-apps-unit4-dnicholson2017/HW4/HW4/TaskComposeViewController.swift": [1669005032, 0]

@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		kWiSCi75qg4hpoE68cGpr/sKf4c=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		8JWtp1F3/8KnCCFuWcffbJX/9nM=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		eireq/IiMFNCf5XFVfWXY5nRXPw=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		0ChpSGDCG9N4elOOMeCJUwfGlgw=
@@ -18,7 +30,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		3xnfJTGmhFdrnh6UGOmRBEujc80=
+		IOYoKriG6OO3Cy8v/H764reVseA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -42,11 +54,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/iXV-Xg-iXn-view-c5O-Gy-SMd.nib</key>
 		<data>
-		+zyWMLLB8qfcHalQ/kZrUGG4zog=
+		gtkYJ+qLqHcrsTxAj513C/OnNy8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ITr0NW2uv7BSmpzEHbP4yabBWLw=
+		vKlZapA0dZblUTPhBvyPkW0nlJ0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -55,6 +67,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KJB15EdIx0cM02KhCnUg1Ef7pMq/mNYMcuvPaxMtU14=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pZJgaHgitdC4Hh2NuLzKH1jO3ac/9rwzz+N/sYUFb0Q=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ytxZDwczD4o+FCqYESgiTL5s3d+o6kbH+oE8aaFn30w=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -80,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+jebqDp0XeyxpXzTPtQU5rCR675FqJ+TJCQytGLZIH8=
+			Gd3db2OmtBr/BbvIxuhTK0cDypcGpUbAg6vDFwDRa5Q=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -122,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RLkjlEbr3xTxPJx/Q2EpgLClz8bNOoDpkhHuaJqv4Og=
+			vr7SuVeujdZLLqa2EU4p52I7W/V/kmm5Zose/ZpZLY8=
 			</data>
 		</dict>
 	</dict>

@@ -141,6 +141,51 @@
 			<key>uniqueIdentifier</key>
 			<string>1217B042-4CDD-4EAA-A252-6133524EE1ED</string>
 		</dict>
+		<key>2091ECC5-E59E-47D6-AB24-56DB29A4C354</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>08D4556F-4C08-4AD0-A2FD-3DA0B11007C8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HW4-2023.09.26_18-28-20--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HW4 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HW4</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HW4</string>
+			<key>timeStartedRecording</key>
+			<real>717460100.09237802</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HW4</string>
+			<key>uniqueIdentifier</key>
+			<string>2091ECC5-E59E-47D6-AB24-56DB29A4C354</string>
+		</dict>
 		<key>25382115-F77C-4241-9774-32AC03E82470</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -816,6 +861,51 @@
 			<key>uniqueIdentifier</key>
 			<string>7544E302-1004-4169-879B-B18C1ADFE83E</string>
 		</dict>
+		<key>7F3960C1-832A-40E8-A650-E452126A81B5</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3BE5B1E2-F966-4AD6-9E7E-5FDDEDCF9A6B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HW4-2023.09.26_18-28-46--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HW4 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HW4</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HW4</string>
+			<key>timeStartedRecording</key>
+			<real>717460126.85585403</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HW4</string>
+			<key>uniqueIdentifier</key>
+			<string>7F3960C1-832A-40E8-A650-E452126A81B5</string>
+		</dict>
 		<key>827485E3-AF6F-4F04-864C-E29D3E286BCC</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -996,6 +1086,51 @@
 			<key>uniqueIdentifier</key>
 			<string>94642015-BB2C-418A-B2B1-FF1B262480F0</string>
 		</dict>
+		<key>9D075686-E07E-4C0F-8FCA-0803C36116B5</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>AE2AB358-650E-463A-ADC0-64D4B7EF9EF4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HW4-2023.09.26_18-19-47--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HW4 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HW4</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HW4</string>
+			<key>timeStartedRecording</key>
+			<real>717459587.59669101</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HW4</string>
+			<key>uniqueIdentifier</key>
+			<string>9D075686-E07E-4C0F-8FCA-0803C36116B5</string>
+		</dict>
 		<key>A3F63AB6-9F4A-496C-9C0A-4A44FE9ADEEC</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1175,6 +1310,51 @@
 			<string>Run HW4</string>
 			<key>uniqueIdentifier</key>
 			<string>C3BAFC03-455C-4CB7-AD7C-99856C71FBEA</string>
+		</dict>
+		<key>C530B456-3BC9-455F-AF22-75379C2CEA37</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>FAA06FE2-3794-4EE1-830C-B1B4A0084B4B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HW4-2023.09.26_18-07-39--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HW4 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HW4</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HW4</string>
+			<key>timeStartedRecording</key>
+			<real>717458859.39154601</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HW4</string>
+			<key>uniqueIdentifier</key>
+			<string>C530B456-3BC9-455F-AF22-75379C2CEA37</string>
 		</dict>
 		<key>DB8B57C7-7D1F-4931-8F48-11CD1F0E284D</key>
 		<dict>
@@ -1400,6 +1580,51 @@
 			<string>Run HW4</string>
 			<key>uniqueIdentifier</key>
 			<string>F63A1967-E0E0-417F-A5D4-662B65272E35</string>
+		</dict>
+		<key>F78424FD-07B4-4B6C-B05E-619B83E85D98</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3EAF7229-D32D-4DE7-9699-D7FFDC925D6A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HW4-2023.09.23_16-23-53--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HW4 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HW4</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HW4</string>
+			<key>timeStartedRecording</key>
+			<real>717193433.06907797</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HW4</string>
+			<key>uniqueIdentifier</key>
+			<string>F78424FD-07B4-4B6C-B05E-619B83E85D98</string>
 		</dict>
 	</dict>
 </dict>
